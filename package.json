@@ -1,0 +1,33 @@
+{
+  "name": "ts-debounce-demo",
+  "version": "1.0.0",
+  "description": "Interactive demo showing ts-debounce utilities in action",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "demo:search": "tsx src/demos/search-autocomplete.ts",
+    "demo:scroll": "tsx src/demos/infinite-scroll.ts",
+    "demo:format": "tsx src/demos/string-format.ts",
+    "demo:all": "tsx src/index.ts"
+  },
+  "keywords": [
+    "debounce",
+    "throttle",
+    "format",
+    "typescript",
+    "demo"
+  ],
+  "author": "OMD-123",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@omdd/omd-ts-debounce": "file:../ts-debounce"
+  }
+}

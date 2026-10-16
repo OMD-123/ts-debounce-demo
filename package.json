@@ -28,6 +28,6 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "@omdd/omd-ts-debounce": "file:../ts-debounce"
+    "@omdd/omd-ts-debounce": "^2.0.3"
   }
 }
